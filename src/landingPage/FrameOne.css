@@ -1,0 +1,387 @@
+
+  @media only screen and (min-width: 600px) {
+    .frame__header{
+        height: 138px;
+        background: #2b6372;
+        text-align: center;
+    }
+    
+    
+    header h2{
+        padding-top: 50px;
+        font-weight: 600;
+        color: white;
+    }
+    
+    .frame__items{
+        margin-top: 70px;
+    }
+    .frame__items p{
+        text-align: center;
+        font-size: 24px;
+        color: rgb(146, 146, 146);
+        margin-bottom: 20px;
+    }
+    
+    .frame__options{
+        display: inline;
+    }
+    .frame__op{
+        text-align: center;
+    }
+    
+    
+    .frame__opt{
+        text-align: center;
+        width: 8%;
+         -webkit-animation: spin 5s linear infinite;
+          -moz-animation: spin 5s linear infinite;
+          animation: spin 5s linear infinite;
+    }
+    
+    @-webkit-keyframes spin{
+        10%{-webkit-transform: rotate(360deg);}
+    }
+    @-moz-keyframes spin{
+        10%{-webkit-transform: rotate(360deg);}
+    }
+    @keyframes spin{
+        100%{-webkit-transform: rotate(360deg);}
+    }
+    
+    
+    .form{
+       
+    }
+    
+    
+     label{
+         padding-left: 10px;
+     }
+    
+     .load__next{
+         text-align: center;
+     }
+    
+     .load__text{
+         text-align: center;
+     }
+    
+     .load__text p{
+        font-weight: 500;
+        font-size: 24px;
+        padding: 5px;
+        color: #74788D;
+     }
+
+     .frame-form {
+        padding-left: 200px;
+    }
+    
+    .left{
+        padding-left:200px;
+        
+    }
+  
+
+ .footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 42px;
+    background: #2b6372;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .footer__logo{
+    display: flex;
+    justify-content: space-around;
+ }
+
+
+ .scynett__logo{
+    padding-right: 5px;
+    width: 27px;
+ }
+
+ .top{
+     margin-top: 150px;
+ }
+
+
+
+
+ .navigate{
+     padding: 10px;
+ }
+
+ .pre{
+     padding-right: 10px;
+ }
+
+ .next{
+     padding-left: 10px;
+ }
+
+
+ .three {
+    -webkit-animation: rotate 4s linear infinite;
+    -moz-animation: rotate 4s linear infinite;
+    animation: rotate 4s linear infinite;
+  }
+  
+
+
+  .thank__you{
+      text-align: center;
+      color: #74788D;
+      margin-top: 90px;
+  }
+
+  .load__txt{
+      font-size: large;
+      color: #74788D;
+      padding-top: 30px;
+      text-align: center;
+  }
+
+  .home{
+      text-align: center;
+  }
+
+  .homepage{
+      background: #2B6372;
+      border-radius: 4px;
+      width: 293px;
+      height: 40px;
+      margin-top: 70px;
+      padding-top: 5px;
+  }
+
+  .homepage p{
+      text-align: center;
+      color: white;
+  }
+
+
+  .frame__options__group1{
+      grid-template-columns: auto auto;
+      display: grid;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .frame__header{
+        height: 138px;
+        background: #2b6372;
+        text-align: center;
+    }
+    
+    
+    header h2{
+        padding-top: 50px;
+        font-weight: 600;
+        color: white;
+    }
+    
+    .frame__items{
+        margin-top: 50px;
+    }
+    .frame__items p{
+        text-align: center;
+        font-size: 24px;
+        color: rgb(146, 146, 146);
+        margin-bottom: 20px;
+    }
+    
+    .frame__options{
+        display: inline;
+    }
+    .frame__op{
+        text-align: center;
+    }
+    
+    
+    .frame__opt{
+        text-align: center;
+        width: 8%;
+         -webkit-animation: spin 5s linear infinite;
+          -moz-animation: spin 5s linear infinite;
+          animation: spin 5s linear infinite;
+    }
+    
+    @-webkit-keyframes spin{
+        10%{-webkit-transform: rotate(360deg);}
+    }
+    @-moz-keyframes spin{
+        10%{-webkit-transform: rotate(360deg);}
+    }
+    @keyframes spin{
+        100%{-webkit-transform: rotate(360deg);}
+    }
+    
+    
+
+    
+     label{
+         padding-left: 5px;
+     }
+    
+     .load__next{
+         margin-top: 40px;
+         text-align: center;
+     }
+    
+     .load__text{
+         margin-top: 32px;
+         text-align: center;
+     }
+    
+     .load__text p{
+        font-weight: 500;
+        font-size: 24px;
+        padding: 5px;
+        color: #74788D;
+     }
+
+     .statement{
+         display:flex;
+     }
+
+     .statement input{
+         margin-top: 5px;
+     }
+
+
+  
+
+ .footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    color: white;
+    padding-left: 30px;
+    height: 42px;
+    background: #2b6372;
+    display: flex;
+    align-items: center;
+ 
+ }
+
+ .footer__logo{
+     display: flex;
+     justify-content: space-around;
+ }
+
+
+ .scynett__logo{
+     padding-right: 5px;
+     width: 27px;
+ }
+
+ .top{
+     margin-top: 150px;
+ }
+
+
+
+
+
+
+
+/* .form{
+   padding-left: 20px;
+} */
+
+
+
+
+
+
+
+ .navigate{
+     padding: 10px;
+ }
+
+ .pre{
+     padding-right: 10px;
+ }
+
+ .next{
+     padding-left: 10px;
+ }
+
+
+ .three {
+    -webkit-animation: rotate 4s linear infinite;
+    -moz-animation: rotate 4s linear infinite;
+    animation: rotate 4s linear infinite;
+  }
+  
+
+
+
+
+
+
+
+
+  .thank__you{
+      text-align: center;
+      color: #74788D;
+      margin-top: 90px;
+  }
+
+  .load__txt{
+      font-size: large;
+      color: #74788D;
+      padding-top: 30px;
+      text-align: center;
+  }
+
+  .home{
+      text-align: center;
+  }
+
+  .homepage{
+      background: #2B6372;
+      border-radius: 4px;
+      width: 293px;
+      height: 40px;
+      margin-top: 70px;
+      padding-top: 5px;
+  }
+
+  .homepage p{
+      text-align: center;
+      color: white;
+  }
+
+
+  .frame-form {
+    padding-left: 30px;
+  }
+
+  .left{
+      display: flex;
+  }
+
+  .left input{
+      margin-top: 5px;
+  }
+  
+}
+
+
+
+
+
+
+
